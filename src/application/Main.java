@@ -16,7 +16,7 @@ public class Main {
 
         while (option != 5) {
 
-            System.out.print("---MENU---\n1 - Created an Account\n2 - Deposit\n3 - Withdraw\n4 - Account statement\n5 - Exit\n");
+            System.out.println("\n---MENU---\n1 - Created an Account\n2 - Deposit\n3 - Withdraw\n4 - Account statement\n5 - Exit\n");
 
             option = sc.nextInt();
             double amount = 0;
@@ -28,6 +28,7 @@ public class Main {
 
                             account = new Account(holder);
                             break;
+
                         case 2:
                             if (account != null) {
                                 System.out.print("\nEnter amount to Deposit: \n");
@@ -39,11 +40,12 @@ public class Main {
                                 System.out.println("\nCreated a Account\n");
                             }
                             break;
+
                         case 3:
                             if (account != null) {
                                 System.out.print("\nEnter amount to Withdraw: \n");
                                 amount = sc.nextDouble();
-                                if (amount < account.balance) {
+                                if (amount <= account.balance) {
                                     account.withdraw(amount);
                                     totalwithdrawls += amount;
                                 } else {
@@ -54,11 +56,16 @@ public class Main {
                                 System.out.println("\nCreated a Account\n");
                             }
                             break;
+
                         case 4:
                             if (account != null) {
                                 System.out.printf("\n---%s---\nBalance:%.2f\nTotal Withdrawals:%.2f\nTotal Deposits:%.2f\n", account.holder, account.balance, totalwithdrawls, totaldeposits);
                             }
                             break;
+
+                        case 5:
+                            break;
+
                         default:
                             System.out.println("\nInvalid option\n");
                     }
