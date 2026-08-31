@@ -1,8 +1,8 @@
-# 🏦 Sistema Bancário em Java
+# Sistema Bancário em Java
 
 Projeto desenvolvido em Java com o objetivo de praticar conceitos fundamentais de programação e orientação a objetos.
 
-## 📋 Sobre o projeto
+## Sobre o projeto
 
 Este projeto consiste em um sistema bancário executado pelo terminal, onde o usuário pode criar uma conta e realizar operações básicas.
 
@@ -21,7 +21,7 @@ O projeto está sendo desenvolvido como parte dos meus estudos de Java e tem com
 - Variáveis e tipos de dados
 - Organização de um projeto Java
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 Atualmente, o sistema permite:
 
@@ -34,14 +34,14 @@ Atualmente, o sistema permite:
 - Consultar o total sacado
 - Encerrar o programa
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Java
 - IntelliJ IDEA
 - Git
 - GitHub
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```text
 Sistema_Bancario/
