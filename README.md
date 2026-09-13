@@ -1,47 +1,47 @@
-# Sistema Bancário em Java
+# Java Banking System
 
-Projeto desenvolvido em Java com o objetivo de praticar conceitos fundamentais de programação e orientação a objetos.
+Project developed in Java with the goal of practicing fundamental programming and Object-Oriented Programming concepts.
 
-## Sobre o projeto
+## About the Project
 
-Este projeto consiste em um sistema bancário executado pelo terminal, onde o usuário pode criar uma conta e realizar operações básicas.
+This project consists of a banking system that runs through the terminal, where the user can create an account and perform basic operations.
 
-O projeto está sendo desenvolvido como parte dos meus estudos de Java e tem como objetivo colocar em prática conceitos como:
+The project is being developed as part of my Java studies and aims to put concepts such as the following into practice:
 
-- Classes e objetos
-- Atributos e métodos
-- Construtores
+- Classes and objects
+- Attributes and methods
+- Constructors
 - Packages
-- Encapsulamento
-- Estruturas condicionais
+- Encapsulation
+- Conditional statements
 - `switch case`
-- Estruturas de repetição
-- Entrada de dados com `Scanner`
-- Métodos com parâmetros
-- Variáveis e tipos de dados
-- Organização de um projeto Java
+- Loops
+- Data input using `Scanner`
+- Methods with parameters
+- Variables and data types
+- Java project organization
 
-## Funcionalidades
+## Features
 
-Atualmente, o sistema permite:
+Currently, the system allows users to:
 
-- Criar uma conta
-- Informar o nome do titular
-- Realizar depósitos
-- Realizar saques
-- Consultar o saldo
-- Consultar o total depositado
-- Consultar o total sacado
-- Encerrar o programa
+- Create an account
+- Enter the account holder's name
+- Make deposits
+- Make withdrawals
+- Check the balance
+- Check the total amount deposited
+- Check the total amount withdrawn
+- Exit the program
 
-## Tecnologias utilizadas
+## Technologies Used
 
 - Java
 - IntelliJ IDEA
 - Git
 - GitHub
 
-## Estrutura do projeto
+## Project Structure
 
 ```text
 Sistema_Bancario/
